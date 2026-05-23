@@ -77,8 +77,16 @@ Abh ek aissa example lete hai jisme Object is trying to access things which are 
 <img width="892" height="697" alt="image" src="https://github.com/user-attachments/assets/7e7c7deb-4daa-413e-bc6e-dae4a1e2970d" />
 
 <img width="1003" height="684" alt="image" src="https://github.com/user-attachments/assets/ec550640-1cda-4718-9894-caf6f3a20866" />
+<img width="939" height="499" alt="image" src="https://github.com/user-attachments/assets/419dafe3-e4f8-4e21-87c6-ac08565941a8" />
 
 
+
+Too mtlb class B wala test() tabhi access hoga jab class me vo already declared ho 
+
+
+<img width="883" height="527" alt="image" src="https://github.com/user-attachments/assets/05c19760-2178-4d82-b4ee-f6a61d7a09d7" />
+
+<img width="929" height="644" alt="image" src="https://github.com/user-attachments/assets/310a02ef-2462-4728-89c4-1c632304d893" />
 
 
 
