@@ -18,6 +18,88 @@ Aur constructor ka name hamesha class name se same hoga
 <img width="942" height="743" alt="image" src="https://github.com/user-attachments/assets/d6c59594-66d0-4b99-9fb9-c204ab638e43" />
 
 
+<img width="1047" height="719" alt="image" src="https://github.com/user-attachments/assets/607ae145-f36a-4ebb-adea-677a72d20ab0" />
+<img width="1025" height="763" alt="image" src="https://github.com/user-attachments/assets/57c555fe-e187-43a1-8cc6-9f646b12eb4b" />
+<img width="988" height="149" alt="image" src="https://github.com/user-attachments/assets/7d24bfea-80f9-4c5c-a1a3-255e79e7959a" />
+
+So inhertience me if constructor call hai so parent will always run first
+
+Aur if inheritence me function call hua and there are multiple function with same name in diff class so niche wali first will be called
+
+
+
+<img width="880" height="753" alt="image" src="https://github.com/user-attachments/assets/f8699fd6-cea0-4e49-a471-3a5dc3b1f54f" />
+<img width="861" height="660" alt="image" src="https://github.com/user-attachments/assets/4df913e8-af56-4a42-bd5e-7671585b0226" />
+<img width="911" height="739" alt="image" src="https://github.com/user-attachments/assets/46bb6f86-4169-403e-b1b3-fa78bd7fa4a8" />
+<img width="924" height="691" alt="image" src="https://github.com/user-attachments/assets/68a972e8-a3bc-4d8e-b148-b2d7f7adb7de" />
+<img width="974" height="738" alt="image" src="https://github.com/user-attachments/assets/ad161baf-1c06-4cf1-82ae-d000aa795854" />
+<img width="915" height="743" alt="image" src="https://github.com/user-attachments/assets/b39941df-aa62-4013-a474-176472a8f94b" />
+<img width="998" height="732" alt="image" src="https://github.com/user-attachments/assets/3248881d-08e4-4a27-861b-96ccd8580244" />
+<img width="938" height="702" alt="image" src="https://github.com/user-attachments/assets/26409153-5ba7-4b9d-894c-bb43bf19ee9f" />
+<img width="659" height="168" alt="image" src="https://github.com/user-attachments/assets/8f3bc046-5f64-41a8-8f48-4a90bf2a11a0" />
+
+Abh Last case bachta hai Overridden wala :
+
+
+
+
+
+<img width="940" height="711" alt="image" src="https://github.com/user-attachments/assets/ddcac1f2-0aa7-4c0c-8381-25f6f5b68966" />
+<img width="965" height="723" alt="image" src="https://github.com/user-attachments/assets/0fb018e3-3954-44f4-889d-b64d182a7141" />
+<img width="913" height="714" alt="image" src="https://github.com/user-attachments/assets/2194ecaa-9480-4c65-b83b-b59aa7ba246d" />
+<img width="929" height="663" alt="image" src="https://github.com/user-attachments/assets/600d09ad-11eb-4f5b-bc9b-943366a5622f" />
+<img width="901" height="635" alt="image" src="https://github.com/user-attachments/assets/52249281-eaae-447b-b0ea-fb0d6796546a" />
+
+So dekho hote kya hai ki, jab 
+
+A obj = new B();
+
+Agr yeh likha hai too mtlb A is refernce and B is Object
+
+<img width="468" height="161" alt="image" src="https://github.com/user-attachments/assets/6664efe2-9172-4a4c-a670-7a9b4c7f633b" />
+
+Too aisse case me pehle B object hai too yeh too obvious hai ki kya koi B ka constructor hai if yes so then vo pehle run krega, as we learned before
+
+<img width="842" height="704" alt="image" src="https://github.com/user-attachments/assets/44bddbc1-6ba8-4417-9bfb-2215d21a75d6" />
+
+Abh aisse case me agr koi method 2-3 baar likha hai too hamesha overridden ke baad wala print hoga
+
+example->
+
+<img width="962" height="654" alt="image" src="https://github.com/user-attachments/assets/1c0e02e9-18fa-40d7-9181-13ede4f2a7b9" />
+<img width="913" height="732" alt="image" src="https://github.com/user-attachments/assets/ef5a3cc0-7ec4-48ac-9233-6fc2d89d8638" />
+<img width="928" height="694" alt="image" src="https://github.com/user-attachments/assets/bddeccb4-d8e4-415e-be61-2e5a31b5edad" />
+
+<img width="905" height="272" alt="image" src="https://github.com/user-attachments/assets/030192b9-dffb-4b5c-8106-7064097aaf5e" />
+
+Abh ek aissa example lete hai jisme Object is trying to access things which are not in refence:
+
+<img width="892" height="697" alt="image" src="https://github.com/user-attachments/assets/7e7c7deb-4daa-413e-bc6e-dae4a1e2970d" />
+
+<img width="1003" height="684" alt="image" src="https://github.com/user-attachments/assets/ec550640-1cda-4718-9894-caf6f3a20866" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
