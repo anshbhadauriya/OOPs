@@ -88,6 +88,41 @@ Too mtlb class B wala test() tabhi access hoga jab class me vo already declared 
 
 <img width="929" height="644" alt="image" src="https://github.com/user-attachments/assets/310a02ef-2462-4728-89c4-1c632304d893" />
 
+Now a tricky ques (constructor + overidding)
+
+<img width="811" height="744" alt="image" src="https://github.com/user-attachments/assets/bf724885-6e09-4117-a990-dbfc2cee13de" />
+
+Aisse case me pehle Parent ka constructor call hota hai 
+
+<img width="822" height="733" alt="image" src="https://github.com/user-attachments/assets/d66f8b82-6a9b-4999-a163-18a60e4157f0" />
+
+<img width="797" height="780" alt="image" src="https://github.com/user-attachments/assets/044922fa-340e-4da2-84cb-5b77e5ac529f" />
+
+
+
+<img width="837" height="494" alt="image" src="https://github.com/user-attachments/assets/4dece840-418f-4112-91fe-8d03321e7eaa" />
+
+<img width="840" height="743" alt="image" src="https://github.com/user-attachments/assets/fe162a19-cfc1-4fe5-91a2-93c0790a6745" />
+
+<img width="789" height="150" alt="image" src="https://github.com/user-attachments/assets/21e20cbf-18a4-4bd7-81a2-bd4685c70f00" />
+
+
+<img width="674" height="740" alt="image" src="https://github.com/user-attachments/assets/d13f47b5-0ea5-40a0-b1a9-77fc65f891a4" />
+
+<img width="686" height="138" alt="image" src="https://github.com/user-attachments/assets/31262830-6750-4f36-a1c6-a31f5a939547" />
+
+<img width="797" height="708" alt="image" src="https://github.com/user-attachments/assets/716b9f7e-08fd-4ff6-a6e0-4e3493145e5a" />
+
+<img width="802" height="70" alt="image" src="https://github.com/user-attachments/assets/eee24cce-9e81-4401-813d-5f82082c597d" />
+
+<img width="675" height="767" alt="image" src="https://github.com/user-attachments/assets/0b8e4ceb-fe66-4570-9904-e63b7af39f62" />
+
+<img width="683" height="109" alt="image" src="https://github.com/user-attachments/assets/b6dcbb04-6e5d-4759-af4a-6f07388cf5be" />
+
+
+
+
+
 
 
 
