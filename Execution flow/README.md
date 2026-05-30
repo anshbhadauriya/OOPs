@@ -30,6 +30,9 @@ Aur if inheritence me function call hua and there are multiple function with sam
 
 <img width="880" height="753" alt="image" src="https://github.com/user-attachments/assets/f8699fd6-cea0-4e49-a471-3a5dc3b1f54f" />
 <img width="861" height="660" alt="image" src="https://github.com/user-attachments/assets/4df913e8-af56-4a42-bd5e-7671585b0226" />
+#############################################################################
+so if we take refernce type-> parent class so we can access methods only which are in parent but if we take refernce type as child so we can access methods of all parents which we inherited
+#############################################################################
 <img width="911" height="739" alt="image" src="https://github.com/user-attachments/assets/46bb6f86-4169-403e-b1b3-fa78bd7fa4a8" />
 <img width="924" height="691" alt="image" src="https://github.com/user-attachments/assets/68a972e8-a3bc-4d8e-b148-b2d7f7adb7de" />
 <img width="974" height="738" alt="image" src="https://github.com/user-attachments/assets/ad161baf-1c06-4cf1-82ae-d000aa795854" />
