@@ -2,6 +2,8 @@
 <img width="758" height="769" alt="image" src="https://github.com/user-attachments/assets/8118bf6b-0b95-4fa9-985c-3825dad90f81" />
 <img width="777" height="737" alt="image" src="https://github.com/user-attachments/assets/55ecd1eb-2aa7-4601-ba30-960c6d9e9578" />
 <img width="558" height="115" alt="image" src="https://github.com/user-attachments/assets/f88e534e-a26a-4d58-a897-755f70425f68" />
+
+
 (*) REAL LIFE EXAMPLE:
 A person can have a different roles such as student ,teacher ,and employee.
 This demonstrates polymorphism.
