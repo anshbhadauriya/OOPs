@@ -20,15 +20,6 @@
 4. Logical Hierarchy — models real-world relationships naturally (e.g., Employee → Manager, Developer).
 5. Polymorphic references (Upcasting) — flexible method signatures accepting parent types.
 
-
-javaclass Vehicle {
-    void start() { System.out.println("Vehicle starting..."); }
-}
-class Car extends Vehicle {
-    void playMusic() { System.out.println("Playing music"); }
-}
-
-
 -><- Disadvantages of Inheritance -><-
 
 1. Tight Coupling — child depends on parent's implementation (Fragile Base Class Problem).
