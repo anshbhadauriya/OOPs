@@ -12,3 +12,29 @@
 <img width="846" height="730" alt="image" src="https://github.com/user-attachments/assets/bd98c45d-24f9-4b38-8697-6290515e2b0a" />
 <img width="805" height="455" alt="image" src="https://github.com/user-attachments/assets/b2855ff2-fb83-48bf-9f94-141bf608c2c7" />
 
+-><- Advantages of Inheritance -><-
+
+1. Code Reusability — common logic defined once in the parent, reused by children.
+2. Method Overriding → Runtime Polymorphism.
+3. Extensibility — supports the Open-Closed Principle (open for extension, closed for modification).
+4. Logical Hierarchy — models real-world relationships naturally (e.g., Employee → Manager, Developer).
+5. Polymorphic references (Upcasting) — flexible method signatures accepting parent types.
+
+
+javaclass Vehicle {
+    void start() { System.out.println("Vehicle starting..."); }
+}
+class Car extends Vehicle {
+    void playMusic() { System.out.println("Playing music"); }
+}
+
+
+-><- Disadvantages of Inheritance -><-
+
+1. Tight Coupling — child depends on parent's implementation (Fragile Base Class Problem).
+2. No Multiple Inheritance (Classes) — Java restricts this to avoid the Diamond Problem.
+3. Deep Hierarchies = Complexity — harder to trace and debug.
+4. Breaks Encapsulation — protected members expose parent internals.
+5. Compile-Time Inflexibility — hierarchy is fixed; can't swap behavior at runtime (unlike composition).
+6. Risk of LSP Violation — if hierarchy is designed poorly (e.g., Penguin/Bird).
+7. Constructor Chaining Overhead — every child object triggers the full parent constructor chain.
