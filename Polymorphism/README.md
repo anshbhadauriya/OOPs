@@ -7,3 +7,9 @@
 (*) REAL LIFE EXAMPLE:
 A person can have a different roles such as student ,teacher ,and employee.
 This demonstrates polymorphism.
+
+
+<img width="1218" height="815" alt="image" src="https://github.com/user-attachments/assets/4ed72284-828e-4525-8e6e-be44094de45c" />
+<img width="1117" height="816" alt="image" src="https://github.com/user-attachments/assets/e0ca1044-b644-4e82-9386-560e699e98b3" />
+<img width="1016" height="211" alt="image" src="https://github.com/user-attachments/assets/fd1c89d2-0529-4140-9ece-88eb8deceb4a" />
+
