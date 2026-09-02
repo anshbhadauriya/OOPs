@@ -51,6 +51,6 @@ class Aeroplane implements Flyable
 class Drone implements Flyable
 They are not necessarily from the same family, but they all have the same capability: flying.
 
-Best one-line difference 🔥
+Best one-line difference 
 Abstract class = what things ARE (common family)
  Interface = what things CAN DO (behaviour/capability)
