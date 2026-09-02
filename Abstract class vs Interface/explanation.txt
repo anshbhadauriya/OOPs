@@ -1,0 +1,56 @@
+class ke andr agr ek bhi method abstract hai too class ko bhi abstract banana pdega
+
+abstract class ka object nhi bna skte kyuki abstract class me abstract method hoge
+like break(); so isme tum kya hi access kroge
+too agr tum abstract class ko inherit kr rhe ho so u need to define all methods of abstract class in child class bcs abh child class ka too object ban skta hai na too usme bhi same issue aajaega agr tum define nhi kroge methods ko 
+lekin agr tumhe child class me still define nhi krna parent abstract ke methods so child class ko bhi abstract banao
+yes it is possible ki tum abstract class ko inherit krke ek aur abstract class banao
+
+INTERFACE me sare methods ko bss declare krna hai define nhi krna..but this was in old java new java me default method bna kr define kr skte ho
+
+####### but lets talk only about old java for now #######
+
+in old java, interface ke methods me kuch define nhi kr skte the so ham bss isme method (behaviour) abstract bna kr chor dete the 
+but in abstract class ham kuch methods ko define bhi kr skte the aur kuch ko abstract bana skte the 
+so thats why interface helps to achieve pure abstraction that it means it is pure what not how
+and uk ki abstract class partial what and how batata tha
+
+ham interface ka kaam ideally behaviour batane ke lie hota hai
+flyable() ,walkable() , runable()
+
+abstract class is family of similar object
+like car() 
+
+
+so  
+Abstract class → common base/family of closely related objects
+abstract class Car {
+    String brand;
+
+    void start() {
+        System.out.println("Car started");
+    }
+
+    abstract void accelerate();
+}
+
+Then:
+class BMW extends Car
+class Audi extends Car
+class Mercedes extends Car
+All of these are Cars and share common properties/behaviour.
+
+
+Interface → common capability/behaviour
+interface Flyable {
+    void fly();
+}
+Different unrelated objects can implement it:
+class Bird implements Flyable
+class Aeroplane implements Flyable
+class Drone implements Flyable
+They are not necessarily from the same family, but they all have the same capability: flying.
+
+Best one-line difference 🔥
+Abstract class = what things ARE (common family)
+ Interface = what things CAN DO (behaviour/capability)
