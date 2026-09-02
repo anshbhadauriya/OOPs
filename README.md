@@ -1,6 +1,8 @@
 # OOPs
 
-
+Animal a = new Dog(); agr yeh likha hai too isme refernce hai animal so jo bhi methods animal ke andr hoge whi execute hoge
+aur dog class usse override kr skta hai but yeh nhi ho skta ki koi aissa method execute ho jo ki sirf dog me ho animal me na ho
+bcs refernce type (animal) decide krta hai ki kon konse method execute hoge
 <img width="1136" height="767" alt="image" src="https://github.com/user-attachments/assets/2efde2ac-e2a3-4ad4-9273-2a657c3bad8a" />
 <img width="998" height="297" alt="image" src="https://github.com/user-attachments/assets/bf78037f-7316-4c6d-9e37-fe29725418ee" />
 <img width="1174" height="798" alt="image" src="https://github.com/user-attachments/assets/fae42804-dc77-4f9b-8cd0-7cc2b7f342d2" />
