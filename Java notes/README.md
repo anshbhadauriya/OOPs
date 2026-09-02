@@ -32,3 +32,26 @@ soo agr aisse portability achieve kr skte hai too cpp walo ne yeh cheez kyu nahi
 
 actually iske lie unnhone new language lai called c# which is portable and c# is developed by microsoft
 
+######## Java is both compiler and interpreter ###########
+
+Compiler converts source code to byte code and later in other system JVM interpreter + JIT compiler ke through converts byte code to machine code line by line
+
+The Java compiler converts source code into platform-independent bytecode. The JVM on the target system interprets or JIT-compiles that bytecode into platform-specific machine code for execution.
+
+JVM also provides security as bytecode runs in JVM
+The JVM is also responsible for garbage collection. 
+
+When your Java program creates objects:
+
+Student s = new Student();
+
+The object is generally stored in heap memory.
+
+When an object is no longer reachable/used:
+
+s = null;
+
+The JVM's Garbage Collector (GC) can identify that the object is no longer reachable and reclaim its memory automatically.
+
+
+
