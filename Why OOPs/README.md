@@ -29,3 +29,5 @@ so issilie ham isse refernce variable kehte h
 
 soo when we write Student s1=new Student(); so s1 is refernce and Student is object
 
+
+so in class fields represents properties and methods represent behaviour
