@@ -11,6 +11,34 @@ so u can say in interview ki static method belong to class and not to objects
 
 so A me hi agr static method hai too vo A se bind ho jaega
 
+
+thoda aur precisely pdhe too->
+
+dekho agr koi class hai student ki abh uk ki sare students hoge unka college too same hoga
+
+Class Student{
+
+int name;
+int rollNumber;
+string college;  //yeh too sbhi student ke lie same hoga 
+}
+so agr college sbke lie same hai too har bar new string college ke lie kyu banana mtlb har ek student ko alg variable milega ka college ka so it will consume more space
+so here we can make college as static static string college; soo isse yeh hoga ki koi bhi student hoga too sbko same memory milega mtlb sbke lie new college variable nhi create hoga
+so static string college will refer to a same memory
+
+static means:
+
+The variable belongs to the class, not to individual objects.
+
+so if it belongs to a class..so tum isse class ke name se bhi access kr skte ho
+
+Student.college="PSIT"; aisse krke bhi change kr skte ho..(here Student is class not object)
+yaa fir object bana kr bhi..like->  Student s= new Student();  fir s.college="PSIT";
+
+abh dekho tum kabhi bhi s.college yaa Student.college krke college variable ki value change kroge too voo sabke lie change hojaegi that means
+agr student s2 bhi hai too uska college bhi change hojaega bcs college is just one varaible and all objects are refering to it
+
+
 ######## PRIVATE ############## 
 
 Private methods cannot be overridden
