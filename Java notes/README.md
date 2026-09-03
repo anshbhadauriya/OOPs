@@ -53,5 +53,21 @@ s = null;
 
 The JVM's Garbage Collector (GC) can identify that the object is no longer reachable and reclaim its memory automatically.
 
+######### JRE #########
+
+JRE provides the environment needed to run Java programs, mainly through the JVM and Java class libraries.
+When we say JRE provides the environment to run Java, we mean:
+
+JRE gives your Java program the JVM + Java libraries + supporting runtime files it needs to execute.
+
+######### JDK ########
+
+It provides everything you need to write, compile, debug, and run Java programs.
+
+JDK = JRE + Compiler,debugger,Java Docs etc.
+
+<img width="1070" height="771" alt="image" src="https://github.com/user-attachments/assets/a1b439b8-1e24-4031-b2ce-dda605235cd2" />
+
+
 
 
