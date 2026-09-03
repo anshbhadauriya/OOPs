@@ -26,3 +26,10 @@ aur haan default tabhi bnega jab tum khudse koi constructor nhi banaoge
 <img width="916" height="311" alt="image" src="https://github.com/user-attachments/assets/e247728b-04af-4545-8591-108d268c52e3" />
 <img width="1035" height="652" alt="image" src="https://github.com/user-attachments/assets/b8f17892-ecb0-41dd-9a37-8f9c36ff3861" />
 
+### Interview Questions ###
+
+Aur haan tum manually constructor call nhi kr skte.. u have to make object than constructor will be called..aissa nhi possible hai ki tumne manually 
+koi constructor call krdia like student()
+
+aur haan when we create a object line Student s= new Student(); so this new keyword dynamically memory ko allocate krta hai mtlb runtime in heap so yeh bhi too ho skta hai ki heap memory 
+full ho.. uss case me kyaa hogaa?? Uss case me hame Run time exception  milega .. so it means if heap memory is full so we will get runtime exception
