@@ -28,7 +28,7 @@ so static string college will refer to a same memory
 
 static means:
 
-The variable belongs to the class, not to individual objects.
+The variable belongs to the class, not to individual objects. (also said as class variable)
 
 so if it belongs to a class..so tum isse class ke name se bhi access kr skte ho
 
@@ -37,6 +37,14 @@ yaa fir object bana kr bhi..like->  Student s= new Student();  fir s.college="PS
 
 abh dekho tum kabhi bhi s.college yaa Student.college krke college variable ki value change kroge too voo sabke lie change hojaegi that means
 agr student s2 bhi hai too uska college bhi change hojaega bcs college is just one varaible and all objects are refering to it
+
+RULES of static:
+
+one static method can only call other static method..mtlb koi static method kisi non static method ko call nhi kr skta 
+bcs suppose ek class hai Student aur uska koi static method hai lets say Static void college() soo ham Student.college krke call kr skte hai lekin agr iss college wale method ne kisi 
+dusre method ko call kra hota lets say name() ko soo yeh smjho ki name too kisi object ke banne se hi call hona chaiye tha aur hmne too bina object banaae hi ek method call krdia
+so its wrong..issilie java me static method can only call static method
+
 
 
 ######## PRIVATE ############## 
