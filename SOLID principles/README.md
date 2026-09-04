@@ -46,5 +46,6 @@ jabki B ko bss ek hi method ki zaroort thi
 # Dependency Inversion Principle
 <img width="920" height="332" alt="image" src="https://github.com/user-attachments/assets/b05c6596-cfa1-42a8-b4dd-443cca03f1be" />
 
+yeh batata hai ki high level module aur low level module directly aapas me na contact kre inke bich me interface ho jisse yeh log aapas me contact kre
 
 
