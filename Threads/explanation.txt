@@ -1,0 +1,67 @@
+######## STATIC ############## 
+you cannot override static method
+
+so if u try to call child method after overriding so parent wala method ki call hoga
+
+it happens bcs static method apni class se bind ho jata hai
+
+so when u do like A a= new B();
+
+so u can say in interview ki static method belong to class and not to objects
+
+so A me hi agr static method hai too vo A se bind ho jaega
+
+######## PRIVATE ############## 
+
+Private methods cannot be overridden
+
+Why?
+
+A private method belongs only to the class where it is declared. The child class cannot access or inherit it.
+
+class Animal {
+    private void sound() {
+        System.out.println("Animal sound");
+    }
+}
+
+class Dog extends Animal {
+
+    void sound() {
+        System.out.println("Bark");
+    }
+}
+
+Here, Dog's sound() is not overriding Animal's sound().
+
+They are two completely separate methods.
+
+Why?
+
+Because:
+
+Animal's private sound() → only Animal can access
+Dog's sound()            → only Dog's own method
+
+so dono ke apne alg sound method hai 
+
+If you do:
+
+Animal a = new Dog();
+a.sound();
+
+ Compile-time error.
+
+Because the reference type is Animal, and Animal.sound() is private.
+
+
+######### FINAL ###########
+
+Final methods cannot be overridden
+
+aur agr kisi class se pehle final laga doge too that can not be inherited
+
+so tum chahte ho ki tumhari class ko koi inherit na kr pae so u use final
+
+
+
