@@ -12,4 +12,4 @@ So throws bss change krdeta hai place where exception is handled
 # For unchecked exceptions like ArithmeticException..throws is not required it is optional
 
 <img width="1085" height="697" alt="image" src="https://github.com/user-attachments/assets/c532f156-f9a1-419f-b45d-913decd395b5" />
-![Uploading image.png…]()
+
