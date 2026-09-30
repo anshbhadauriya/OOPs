@@ -1,4 +1,4 @@
-Why java?
+# Why java?
 
 dekho cpp me compiler hota hai jo ki kisi code ko machine code (0/1) me convert krta hai too vo har platform ke lie alg krta hai that means ki tum agr apna pc se compile kroge code too uski
 ek .exe file bnegi so that wont work on others OS so u might think ki seedhe code share krdo fir baad me compile kr lena but u dont want to share your source code for security reason ofc
@@ -32,7 +32,7 @@ soo agr aisse portability achieve kr skte hai too cpp walo ne yeh cheez kyu nahi
 
 actually iske lie unnhone new language lai called c# which is portable and c# is developed by microsoft
 
-######## Java is both compiler and interpreter ###########
+## Java is both compiler and interpreter 
 
 Compiler converts source code to byte code and later in other system JVM interpreter + JIT compiler ke through converts byte code to machine code line by line
 
@@ -53,14 +53,14 @@ s = null;
 
 The JVM's Garbage Collector (GC) can identify that the object is no longer reachable and reclaim its memory automatically.
 
-######### JRE #########
+## JRE
 
 JRE provides the environment needed to run Java programs, mainly through the JVM and Java class libraries.
 When we say JRE provides the environment to run Java, we mean:
 
 JRE gives your Java program the JVM + Java libraries + supporting runtime files it needs to execute.
 
-######### JDK ########
+## JDK 
 
 It provides everything you need to write, compile, debug, and run Java programs.
 
