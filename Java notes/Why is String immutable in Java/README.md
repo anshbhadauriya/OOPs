@@ -16,7 +16,7 @@ agr hai so it will point to that instead of creating a new object
 
 <img width="1257" height="672" alt="image" src="https://github.com/user-attachments/assets/60fe8a54-6d14-4eee-aada-eaa52ae85ddc" />
 
-### so it basically saved the memory
+### so it basically saves the memory
 
 So you may think ki yeh cheez tabhi possible ho sakti thi jab String mutable hoti,
 but nahi. Because agar aisa hota toh hum agar ek String ki value change karte toh woh sabke liye change ho jaati, which could cause problems.
