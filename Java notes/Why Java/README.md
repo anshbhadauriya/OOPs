@@ -18,3 +18,16 @@ isslie same machine code doesnt work in other OS
 
 <img width="1068" height="756" alt="image" src="https://github.com/user-attachments/assets/1f592ba6-108a-4dc6-b5d7-ed9aea756003" />
 <img width="1017" height="757" alt="image" src="https://github.com/user-attachments/assets/1bffafbe-5253-4da2-a71f-0fe1b853738a" />
+
+
+# How java is secure?
+so jab ham byte code kisi dusre platform me run krte hai too JVM execute krne se pehle check krta hai ki kahi iss code me kuch malicious cheez too nhi..this is called SandBox model
+aurr issi trh Java security provide krta hai
+
+Formal way:
+### Java's security model, historically called the sandbox model, restricted untrusted code from accessing sensitive system resources directly, such as files or the operating system. This helped prevent malicious code from harming the system.
+
+# Java walo ne java ko platform independent banaya byte code aur JVM  ke through too C++ wale kyu nhi Byte code wala scene lae vo loog bhi too byte code ya CVM krke kuch laa skte the?
+
+## Aissa isslie kyuki cpp ka mainly hardware se close thi aur cpp already apni legacy bana chuki thi too usme ched chaad na krke microsoft ne same cheez C# me kri..
+## baad me python aai vo platform independent thi
