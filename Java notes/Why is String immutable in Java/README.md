@@ -16,6 +16,8 @@ agr hai so it will point to that instead of creating a new object
 
 <img width="1257" height="672" alt="image" src="https://github.com/user-attachments/assets/60fe8a54-6d14-4eee-aada-eaa52ae85ddc" />
 
+### string bhot jagah use hota hai jaise Passwords me URL me Hashes too vaha ham immutability chahte hai 
+
 ### so it basically saves the memory
 
 So you may think ki yeh cheez tabhi possible ho sakti thi jab String mutable hoti,
