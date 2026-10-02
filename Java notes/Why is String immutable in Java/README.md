@@ -14,6 +14,7 @@ so when java creates a string object from literal it actually puts that string o
 so agli fir se jab String literal create hoga too java STRING POOL check krega ki kya vo value already STRING POOL me hai 
 agr hai so it will point to that instead of creating a new object
 
+so strings use string pool
 <img width="1257" height="672" alt="image" src="https://github.com/user-attachments/assets/60fe8a54-6d14-4eee-aada-eaa52ae85ddc" />
 
 ### string bhot jagah use hota hai jaise Passwords me URL me Hashes too vaha ham immutability chahte hai 
