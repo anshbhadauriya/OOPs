@@ -48,4 +48,79 @@ but after java 8.. default method ko use krke implementation kra ja skte the
 
 ## But interface me default method wala feature laane ki kya zaroort thi?...interface ki main cheez hi thi ki vo bss declare krega? aissa kyu kra gya??
 
+the reason is very interesting..
+dekho jaise collections me ek interface hamne pdha like list interface 
+abh maan lo java ko koi new method lana ho list interface ka.... lets say pushback() krke abh isse problem yeh hogi ki jitni bhi exisiting classes hai jo list interface ko implement krti hai like array list sbme override krna pdega pushback ko aur uska implementation dena pdega
+jo ki bhot kharab cheez hogi 
+issiliee default method introduce hua
 
+### aur JAVA 9 ke baad se interface me private methods bhi aaskte h
+but private ko tum bahar se too access kr nhi skte ..so yeh bss interface ke andr hi access hoga
+
+## Tumne yeh too suna hoga ki using interface ham multiple inheritance achieve kr skte hai aur diamond problem se bach skte hai....But how exactly?
+o
+dekho agr tum interface use kroge so uk tum kisi method ka implementation nhi kr skte the traditionally so at the end tum base class me hi implementation kroge issi trh diamond problem break hojati h
+like this:
+<img width="640" height="502" alt="image" src="https://github.com/user-attachments/assets/6d8f2542-b46c-4e97-814a-bb340c91c686" />
+
+## but JAVA 8 ke baad too ham default method use kr skte hai..jisse ham implementation bhi parent interface me kr skte hai.. uss situation me kya hoga??
+
+too agr aissi situation aati hai so you have to override parent interface in child ... yeh rule bana dia java ne
+abhh isse yeh hoga ki upr wale methods ki implementation se mtlb nhi..jo bhi override krke implementation di usse hi mtlb hai
+<img width="413" height="497" alt="image" src="https://github.com/user-attachments/assets/1f6c9057-ee89-41a1-8c21-747757aa6350" />
+
+**lekin tum chahte ho ki tum parent ka implementation use kro too voo kaise hoga?**
+use **super** keyword
+<img width="482" height="512" alt="image" src="https://github.com/user-attachments/assets/1f5e965a-34a3-4806-8f31-b765b3299381" />
+
+you cannot do B.fun() bcs it is not static anymore..it is instance method bcs of default keyword
+
+## Java resolution priority rule
+
+<img width="805" height="670" alt="image" src="https://github.com/user-attachments/assets/523bf9a2-b3be-4e5a-af48-fb9f1a66a915" />
+abh kabhi aissi situation hai jab tum class aur interface dono ko inherit kr rhe ho too hamehsa class ko hi priority di jaegi
+so here **Inside B class** output aaega
+
+## too java 9 ke baad interface itna sab kr skta hai soo how is it different from abstract class.. so actually difference kya hai interface aur abstract class ka?
+
+**Intention -** interface contract dikhane ke lie use hota hai ki koi class kya kr skti hai..kya functionality hai class ki..isslie interface is used as verb generally
+like runnable,walkable,flyable,payable
+
+Abstract class hame batata hai families of similar class like dog , duck , elephant all these comes under animal soo agr hme eat add krna hai too bss animal me add krdege..har ek ke child 
+me nhi define krna hoga
+**issilie inheritance ko ham IS A relationship bolte hai**
+**aur interface ko CAN DO relationship bolte hai**
+
+**(1)** aur interface me ham normal instace fields nhi define kr skte mtlb aissa koi variable jo public static final na ho yeh nhi ho skta in interface
+but in case of abstract class ham instance variable define kr skte h
+
+**(2)** interface ke andr constructors nhi ho skte bcs constructor too object ke lie hote hai na jabki interface ko objects se lena dena nhi..
+but in case of abstract class constructors ho skte hai
+
+**(3)** interface multiple inheritance support krta hai but abstract class nhi
+
+**(4)** interface me methods sare public hote hai..haan vo alg baat hai ki abh private bhi bana skte hai after java 9
+but in case of abstract class u can use any access modifier- private,public,protected,default
+
+
+# Functional interfaces
+vo interface jiske andr sirf ek hi method ho..
+<img width="211" height="165" alt="image" src="https://github.com/user-attachments/assets/a2d2fbaa-86c0-4a65-96f8-58cd08c6da7e" />
+
+abh iska ek special naam kyu dia functional interface krke??..yeh too normal cheez hai??
+bcs yeh java ke bhot important concept ko unlock krte hai jisse bolte hai **functional programming**  using lambda expressions..
+java me already kai sare functional interface exist krte hai like-> comparable interface,predicate interface
+
+# Marker interfaces
+
+vo itnterface jiske andr koi method nhi hotaa..
+<img width="255" height="105" alt="image" src="https://github.com/user-attachments/assets/ddac8cfb-04e7-4257-a8a9-3e6b6a467861" />
+
+JAVA me 3 type ke marker interface hote hai
+
+<img width="856" height="427" alt="image" src="https://github.com/user-attachments/assets/f7bde69f-4afc-42b2-8c97-2e6e9644f3b8" />
+
+marker interface bss represent krne ke lie hote hai ki tum kisi class ko clone krna chahte hoo..like this:
+<img width="1006" height="696" alt="image" src="https://github.com/user-attachments/assets/4ee3a791-9591-4f92-8c26-6e039bee502e" />
+
+i think this is enough for interface.
