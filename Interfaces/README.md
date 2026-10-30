@@ -96,6 +96,9 @@ but in case of abstract class ham instance variable define kr skte h
 
 **(2)** interface ke andr constructors nhi ho skte bcs constructor too object ke lie hote hai na jabki interface ko objects se lena dena nhi..
 but in case of abstract class constructors ho skte hai
+<img width="907" height="681" alt="image" src="https://github.com/user-attachments/assets/513a65dc-21d8-49da-a519-301f1f9adc97" />
+<img width="918" height="162" alt="image" src="https://github.com/user-attachments/assets/7e73bd3e-31de-4250-95c8-e51167c01e0f" />
+
 
 **(3)** interface multiple inheritance support krta hai but abstract class nhi
 
