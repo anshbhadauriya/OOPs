@@ -1,7 +1,7 @@
 ######## STATIC ############## 
 you cannot override static method
 
-so if u try to call child method after overriding so parent wala method ki call hoga
+so if u try to call child method after overriding so parent wala method hi call hoga
 
 it happens bcs static method apni class se bind ho jata hai
 
@@ -11,6 +11,7 @@ so u can say in interview ki static method belong to class and not to objects
 
 so A me hi agr static method hai too vo A se bind ho jaega
 
+static likhte hi instance varible ya method non instance ban jate hai
 
 thoda aur precisely pdhe too->
 
